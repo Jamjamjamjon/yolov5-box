@@ -1,0 +1,30 @@
+========================================================================
+                               Performance                              
+========================================================================
+Layer ID    Name                                         Time(us)
+3           convolution.relu.pooling.layer2_2            1817
+7           convolution.relu.pooling.layer2_2            1127
+11          convolution.relu.pooling.layer2_2            563
+15          convolution.relu.pooling.layer2_2            387
+17          convolution.relu.pooling.layer2_2            234
+19          leakyrelu.layer_3                            81
+20          pooling.layer2_3                             55
+23          convolution.relu.pooling.layer2_2            480
+25          convolution.relu.pooling.layer2_2            1475
+27          leakyrelu.layer_3                            81
+28          convolution.relu.pooling.layer2_2            170
+30          leakyrelu.layer_3                            23
+31          convolution.relu.pooling.layer2_2            396
+33          leakyrelu.layer_3                            42
+34          convolution.relu.pooling.layer2_2            25
+37          convolution.relu.pooling.layer2_2            26
+39          leakyrelu.layer_3                            13
+40          tensorscale.layer                            321
+42          convolution.relu.pooling.layer2_2            691
+44          leakyrelu.layer_3                            81
+45          convolution.relu.pooling.layer2_2            43
+Total Time(us): 8131
+FPS(600MHz): 92.24
+FPS(800MHz): 122.99
+Note: Time of each layer is converted according to 800MHz!
+========================================================================
